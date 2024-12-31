@@ -1,7 +1,59 @@
-/* Stil für Gedichte (pre-Tag) */
+/* Allgemeine Stile */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hauptbereich */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Stil für Gedichte */
 pre {
     font-family: 'Georgia', serif;
-    white-space: pre-wrap; /* Zeilenumbrüche einhalten */
+    white-space: pre-wrap; /* Zeilenumbrüche beibehalten */
     word-wrap: break-word; /* Lange Wörter umbrechen */
     background: #f4f4f4;
     padding: 1rem;
@@ -10,7 +62,28 @@ pre {
     margin-bottom: 1rem;
 }
 
-/* Kommentarformular-Stil */
+/* Like-Button */
+.like-btn {
+    margin-top: 1rem;
+    padding: 0.3rem 0.8rem;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.like-btn:hover {
+    background: #c0392b;
+}
+
+.like-count {
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+
+/* Kommentarbereich */
 .comment-form {
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -45,4 +118,13 @@ pre {
 
 .comment-form button:hover {
     background-color: #34495e;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #2c3e50;
+    color: #fff;
 }
