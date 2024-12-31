@@ -50,11 +50,43 @@ h2 {
     margin-bottom: 1rem;
 }
 
+/* Inhaltsverzeichnis */
+#inhalt {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f4f4f4;
+}
+
+#inhalt h2 {
+    margin-bottom: 0.5rem;
+}
+
+#inhalt ul {
+    list-style: none;
+    padding: 0;
+}
+
+#inhalt ul li {
+    margin-bottom: 0.5rem;
+}
+
+#inhalt ul li a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+#inhalt ul li a:hover {
+    text-decoration: underline;
+}
+
 /* Stil für Gedichte */
 pre {
     font-family: 'Georgia', serif;
-    white-space: pre-wrap; /* Zeilenumbrüche beibehalten */
-    word-wrap: break-word; /* Lange Wörter umbrechen */
+    white-space: pre-wrap;
+    word-wrap: break-word;
     background: #f4f4f4;
     padding: 1rem;
     border: 1px solid #ddd;
