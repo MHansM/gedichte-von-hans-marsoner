@@ -1,35 +1,60 @@
-<section id="gedichte">
-    <h2>Gedicht 1: Achtsamkeit</h2>
-    <pre>
-        
-siehst du wie die nacht erbleicht,
-die sonne, sie erwacht gar gleich,
-du fühlst den Strahl und lachst dabei,
-ein danke, an die achtsamkeit
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gedichte von Hans Marsoner</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Gedichte von Hans Marsoner</h1>
+        <nav>
+            <ul>
+                <li><a href="#gedichte">Gedichte</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    </pre>
-    <button class="like-btn" data-id="gedicht1">Gefällt mir ❤️</button>
-    <span class="like-count" id="gedicht1-count">0</span> Likes
+    <main>
+        <section id="gedichte">
+            <!-- Gedicht 1 -->
+            <h2>Gedicht 1: Titel des Gedichts</h2>
+            <pre>
+Dies ist die erste Zeile des Gedichts.
+Dies ist die zweite Zeile des Gedichts.
+            </pre>
+            <button class="like-btn" data-id="gedicht1">Gefällt mir ❤️</button>
+            <span class="like-count" id="gedicht1-count">0</span> Likes
 
-    <!-- Kommentarfeld unter dem Gedicht -->
-    <form class="comment-form">
-        <label for="comment1">Dein Kommentar:</label>
-        <textarea id="comment1" name="comment1"></textarea>
-        <button type="button" onclick="submitComment('comment1')">Kommentar senden</button>
-    </form>
+            <!-- Kommentarbereich -->
+            <form class="comment-form">
+                <label for="comment1">Dein Kommentar:</label>
+                <textarea id="comment1" name="comment1"></textarea>
+                <button type="button" onclick="submitComment('comment1')">Kommentar senden</button>
+            </form>
 
-    <h2>Gedicht 2: Titel des Gedichts</h2>
-    <pre>
-        Noch ein weiteres schönes Gedicht.
-        Mit weiteren Zeilen.
-    </pre>
-    <button class="like-btn" data-id="gedicht2">Gefällt mir ❤️</button>
-    <span class="like-count" id="gedicht2-count">0</span> Likes
+            <!-- Gedicht 2 -->
+            <h2>Gedicht 2: Titel des Gedichts</h2>
+            <pre>
+Noch ein weiteres schönes Gedicht.
+Mit weiteren Zeilen.
+            </pre>
+            <button class="like-btn" data-id="gedicht2">Gefällt mir ❤️</button>
+            <span class="like-count" id="gedicht2-count">0</span> Likes
 
-    <!-- Kommentarfeld unter dem Gedicht -->
-    <form class="comment-form">
-        <label for="comment2">Dein Kommentar:</label>
-        <textarea id="comment2" name="comment2"></textarea>
-        <button type="button" onclick="submitComment('comment2')">Kommentar senden</button>
-    </form>
-</section>
+            <!-- Kommentarbereich -->
+            <form class="comment-form">
+                <label for="comment2">Dein Kommentar:</label>
+                <textarea id="comment2" name="comment2"></textarea>
+                <button type="button" onclick="submitComment('comment2')">Kommentar senden</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hans Marsoner. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
