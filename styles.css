@@ -50,39 +50,14 @@ h2 {
     margin-bottom: 1rem;
 }
 
-/* Inhaltsverzeichnis */
-#inhalt {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background: #f4f4f4;
+/* Jahreszahlen */
+.jahr {
+    color: red;
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
-#inhalt h2 {
-    margin-bottom: 0.5rem;
-}
-
-#inhalt ul {
-    list-style: none;
-    padding: 0;
-}
-
-#inhalt ul li {
-    margin-bottom: 0.5rem;
-}
-
-#inhalt ul li a {
-    text-decoration: none;
-    color: #2c3e50;
-    font-weight: bold;
-}
-
-#inhalt ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Stil für Gedichte */
+/* Gedichtstil */
 pre {
     font-family: 'Georgia', serif;
     white-space: pre-wrap;
@@ -150,13 +125,4 @@ pre {
 
 .comment-form button:hover {
     background-color: #34495e;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    margin-top: 2rem;
-    padding: 1rem;
-    background: #2c3e50;
-    color: #fff;
 }
