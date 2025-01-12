@@ -147,3 +147,14 @@ pre {
     text-decoration: underline; /* Unterstreicht die Links beim Hover */
     color: #007BFF; /* Optional: Ändert die Farbe beim Hover */
 }
+
+
+/* Zentrierung des Copyright-Textes */
+footer {
+    text-align: center; /* Zentriert den gesamten Text im Footer */
+    margin-top: 2rem; /* Fügt oben etwas Abstand ein */
+}
+
+footer p {
+    margin: 0.5rem 0; /* Fügt Abstand zwischen den Absätzen ein */
+}
