@@ -126,3 +126,24 @@ pre {
 .comment-form button:hover {
     background-color: #34495e;
 }
+
+/* Inhaltsverzeichnis-Stil */
+#inhalt ul {
+    list-style-type: none; /* Entfernt die Aufzählungspunkte */
+    padding: 0; /* Entfernt den Standard-Abstand */
+}
+
+#inhalt ul li {
+    margin-bottom: 0.5rem; /* Fügt etwas Abstand zwischen den Einträgen hinzu */
+}
+
+#inhalt ul li a {
+    font-weight: bold; /* Macht die Einträge fett */
+    color: black; /* Setzt die Farbe der Links */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+}
+
+#inhalt ul li a:hover {
+    text-decoration: underline; /* Unterstreicht die Links beim Hover */
+    color: #007BFF; /* Optional: Ändert die Farbe beim Hover */
+}
